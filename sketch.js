@@ -1,16 +1,6 @@
 function setup(){
 
-    var A = new Matrix(2,2)
-    var B = new Matrix(2,2)
-
-    A.randomize()
-    A.print()
-    B.randomize()
-    B.print()
-
-    var C = Matrix.subtract(A, B)
-
-    C.print()
-
-    
+    var nn = new RNA(1, 3, 2)
+    let arr = [1, 2]
+    nn.train(arr, [0, 1])
 }
